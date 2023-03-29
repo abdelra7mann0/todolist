@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ddd;
+}
+nav{
+    background-color: #546fb8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 90px;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+nav #logo{
+    color: #fff;
+    text-decoration: none;font-size: 30px;
+}
+nav #list-item{
+}
+nav #list-item li{
+    display: inline-block;
+    margin-left: 79px;
+
+}
+nav #list-item li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav #bar , #x {
+    color: #fff;
+    font-size: 23px;
+    display: none;
+
+}
+nav #list-item #search{
+    border: none;
+    outline: none;
+    margin-left: 73px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding:5px 10px ;
+    font-size: 20px;
+    width: 100px;
+    margin-right: 10px;
+}
+nav #list-item #search:focus {
+    width: 200px;
+}
+nav #list-item  #search-icon{
+    color: #fff;cursor: pointer;
+}
+#content{
+    width: 85%;
+    margin: auto;
+    margin-top: 200px;
+}
+#content #row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+#content #row #item{
+    width: 32%;
+    margin-bottom: 40px;
+}
+#content #row #item #img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+#content #row #item #img img{
+    width: 100%;
+}
+
+#content #row #item p{
+margin-bottom: 20px;
+}
+@media (max-width: 1000px ){
+    nav{
+        padding: 51px 17px;position: relative;
+
+    }
+    nav #list-item{
+        background-color: #546fb8;
+        position: absolute;
+        top: -290px;
+        left: 0;
+        width: 100%;
+        transition:.4s all ease-in-out ;
+        -webkit-transition:.4s all ease-in-out ;
+        -moz-transition:.4s all ease-in-out ;
+        -ms-transition:.4s all ease-in-out ;
+        -o-transition:.4s all ease-in-out ;
+}
+    nav #list-item li{
+        display: block;
+        margin: 30px;
+        
+    }
+    nav #x{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    nav #bar{
+        display: block;
+    }
+}
+
+

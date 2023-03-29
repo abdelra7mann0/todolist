@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/all.min.css"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Moon+Dance&family=Roboto&display=swap" rel="stylesheet">
+    <link href="./css/form2.css"rel="stylesheet">
+    <title>form2</title>
+</head>
+<body>
+    <div class="div container">
+        <div class="div flex">
+                <label>user name</label>
+                <input id="username"type="text"placeholder="Enter your user name">
+                <label>first name</label>
+                <input id="firstname"type="text"placeholder="Enter your first name">
+                <label>last name</label>
+                <input id="lastname"type="text"placeholder="Enter your last name">
+                <button id = "submit">submit</button>
+                <button id="delall">deletall <small id="length"></small></button>
+            <table>
+                <tr>
+                    <th>user name</th>
+                    <th>first name</th>
+                    <th>last name</th>
+                    <th>update</th>
+                    <th>delet</th>
+                </tr>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>Abdo</td>
+                        <td>mohamed</td>
+                        <td>ahmed</td>
+                        <td><button id = "update">update</button></td>
+                        <td><button id ="delet">delet</button></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="./js/form2.js">
+    </script>
+</body>
+</html>

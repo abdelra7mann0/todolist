@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ddd;
+}
+/* label {
+    color: red;
+    font-size: 10px;display: none;
+} */
+/* table{
+    margin: 0;
+padding: 0;
+}
+#white{
+    background-color: aquamarine;width: 20px;
+    height: 20px;margin: 0;
+    padding: 0;
+}
+#black{
+background-color: black;
+width: 20px;
+height: 20px;
+margin: 0;
+padding: 0;
+} */
+
+/* #card{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#show {
+height: fit-content;
+    background-color: #ddd;   
+     margin-left: 80px;
+     display: none;
+     padding: 30px;
+     text-align: center;
+     
+
+} */
+#cont{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    flex-flow: row wrap;
+}
+#form {
+    margin-bottom: 30px;
+}
+#pro{
+    background-color: #fff;
+    width: 33%;
+    /* text-align: center; */
+    padding: 10px;
+    margin-bottom: 30px;
+}
+#pro #img{
+    margin-bottom: 30px;
+}
+#pro p {
+    margin-bottom: 30px;
+    color:darkblue;
+}
+small{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #b82ee5;
+}
+span{
+    color: #0072ab;
+}
